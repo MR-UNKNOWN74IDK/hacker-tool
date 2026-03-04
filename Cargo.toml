@@ -1,0 +1,12 @@
+[package]
+name = "cyber_tool"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Async processing engine
+tokio = { version = "1", features = ["full"] }
+# Fast networking
+pnet = "0.35"
+# Async logging/file handling
+futures = "0.3"
